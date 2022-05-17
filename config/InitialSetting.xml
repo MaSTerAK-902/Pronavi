@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--***************************************************
+    <set>
+        <Set_Name></Set_Name>
+        <Set_Data></Set_Data>
+    </set>
+******************************************************-->
+<Settings>
+    <set>
+        <Set_Name>商品発送元の都道府県</Set_Name>
+        <Set_Data>東京都</Set_Data>
+    </set>
+    <set>
+        <Set_Name>商品発送元の市区町村</Set_Name>
+        <Set_Data>千代田区永田町</Set_Data>
+    </set>
+    <set>
+        <Set_Name>送料負担</Set_Name>
+        <Set_Data>落札者</Set_Data>
+    </set>
+    <set>
+        <Set_Name>代金先払い</Set_Name>
+        <Set_Data>代金先払い</Set_Data>
+    </set>
+    <set>
+        <Set_Name>最低評価</Set_Name>
+        <Set_Data>0</Set_Data>
+    </set>
+    <set>
+        <Set_Name>悪評割合制限</Set_Name>
+        <Set_Data>はい</Set_Data>
+    </set>
+    <set>
+        <Set_Name>入札者認証制限</Set_Name>
+        <Set_Data>いいえ</Set_Data>
+    </set>
+    <set>
+        <Set_Name>注目のオークション</Set_Name>
+        <Set_Data>0</Set_Data>
+    </set>
+    <set>
+        <Set_Name>消費税設定</Set_Name>
+        <Set_Data>10</Set_Data>
+    </set>
+    <set>
+        <Set_Name>税込みフラグ</Set_Name>
+        <Set_Data>いいえ</Set_Data>
+    </set>
+    <set>
+        <Set_Name>配送グループ</Set_Name>
+        <Set_Data>1</Set_Data>
+    </set>
+</Settings>
