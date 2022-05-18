@@ -89,9 +89,9 @@ for i in range(InputFile_Rows_Count):
                 
     #Memo : Output_Csv_Add_Dataframe にAutction_Navi_Word_List[n]を追加する。 
     Output_Csv_Add_Dataframe.append(Add_Tempo_Dataframe)
-
 #Memo : DataFrameを出力する処理（csvに出力 -> .zipにパッケージ -> csvを削除
 df = pd.DataFrame(Output_Csv_Add_Dataframe, columns = pd.read_csv('./config/Auction_Navi_Template.csv').columns.tolist())
+#TBV : エンコーディングは利用者側で指定できるように変数を設定
 df.to_csv('output.csv',index = False , encoding='shift-jis')
 Time_Now = datetime.datetime.now()
 Output_Filename = './output/output_' + Time_Now.strftime('%Y%m%d') + '.zip'
