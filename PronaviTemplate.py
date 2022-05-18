@@ -18,6 +18,7 @@ config_ini.read('./config/html_config.ini',encoding = 'utf-8')
 
 #Memo : HTML用データフレームの作成
 HTML_TXT_File = open('./config/htmltemplate.txt','r',encoding='UTF-8', newline='').read()
+HTML_TXT_File =  HTML_TXT_File.rstrip()
 Read_Columns = config_ini.getint('DEFAULT','Columns')
 Read_Header_Name = config_ini.get('DEFAULT','Header')
 
