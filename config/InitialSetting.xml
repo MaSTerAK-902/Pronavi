@@ -7,19 +7,23 @@
 ******************************************************-->
 <Settings>
     <set>
+        <Set_Name>商品の状態</Set_Name>
+        <Set_Data>未使用</Set_Data>
+    </set>
+    <set>
         <Set_Name>商品発送元の都道府県</Set_Name>
         <Set_Data>東京都</Set_Data>
     </set>
     <set>
         <Set_Name>商品発送元の市区町村</Set_Name>
-        <Set_Data>千代田区永田町</Set_Data>
+        <Set_Data>千代田区</Set_Data>
     </set>
     <set>
         <Set_Name>送料負担</Set_Name>
         <Set_Data>落札者</Set_Data>
     </set>
     <set>
-        <Set_Name>代金先払い</Set_Name>
+        <Set_Name>代金先払い、後払い</Set_Name>
         <Set_Data>代金先払い</Set_Data>
     </set>
     <set>
@@ -33,6 +37,10 @@
     <set>
         <Set_Name>入札者認証制限</Set_Name>
         <Set_Data>いいえ</Set_Data>
+    </set>
+    <set>
+        <Set_Name>商品の自動再出品</Set_Name>
+        <Set_Data>3</Set_Data>
     </set>
     <set>
         <Set_Name>注目のオークション</Set_Name>
