@@ -21,7 +21,7 @@ HTML_TXT_File = open('./config/htmltemplate.txt','r',encoding='UTF-8', newline='
 Read_Columns = config_ini.getint('DEFAULT','Columns')
 Read_Header_Name = config_ini.get('DEFAULT','Header')
 
-#TBV : 変数名の見直し　処理方法の見直し
+#TBV : 変数名の見直し 処理方法の見直し
 Pandas_Read_Noheader = pd.read_csv('input_file.csv', header = None)
 Pandas_Read_Dataframe = pd.read_csv('input_file.csv')
 Df_Rows_Count = len(Pandas_Read_Dataframe)
@@ -92,7 +92,7 @@ for i in range(InputFile_Rows_Count):
 
 #Memo : DataFrameを出力する処理（csvに出力 -> .zipにパッケージ -> csvを削除
 df = pd.DataFrame(Output_Csv_Add_Dataframe, columns = pd.read_csv('./config/Auction_Navi_Template.csv').columns.tolist())
-df.to_csv('output.csv',index = False , encoding='utf_8_sig')
+df.to_csv('output.csv',index = False , encoding='shift-jis')
 Time_Now = datetime.datetime.now()
 Output_Filename = './output/output_' + Time_Now.strftime('%Y%m%d') + '.zip'
 
